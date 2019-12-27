@@ -1,7 +1,7 @@
 # Komponentendiagramme der GDI des Kantons Solothurn
 ## Erläuterung der Diagrammelemente
 
-![Beispieldiagramm](./dia/example.svg?sanitize=true)
+![Beispieldiagramm](dia/sample.svg?sanitize=true)
 
 Der Client nutzt (ist Abhängig von):
 * Das Subsystem "mapservice" via Interface WMS. 
