@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="360px" preserveAspectRatio="none" style="width:217px;height:360px;" version="1.1" viewBox="0 0 217 360" width="217px" zoomAndPan="magnify"><defs><filter height="300%" id="f1u9w68jcf7i3t" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><polygon fill="#FFFFFF" filter="url(#f1u9w68jcf7i3t)" points="14,106,24,96,195,96,195,338,185,348,14,348,14,106" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="185" x2="194" y1="106" y2="97"/><line style="stroke: #000000; stroke-width: 1.5;" x1="14" x2="185" y1="106" y2="106"/><line style="stroke: #000000; stroke-width: 1.5;" x1="185" x2="185" y1="106" y2="348"/><!--MD5=[ceb88a22264af9917a5561111a08e267]
+cluster Workers--><polygon fill="#FFFFFF" filter="url(#f1u9w68jcf7i3t)" points="22,173,95,173,102,195.2969,187,195.2969,187,340,22,340,22,173" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="22" x2="102" y1="195.2969" y2="195.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="67" x="26" y="187.9951">Workers</text><!--MD5=[d8322213e5f4465576b8bf70cd9bce59]
+entity s--><rect fill="#FEFECE" filter="url(#f1u9w68jcf7i3t)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="63" x="94.5" y="104"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="89.5" y="109"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="89.5" y="130.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="43" x="104.5" y="126.9951">server</text><!--MD5=[9113fcc272a7d1b0d03ae2bd44c062fe]
+entity si--><ellipse cx="50" cy="122" fill="#FEFECE" filter="url(#f1u9w68jcf7i3t)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="37" x="31.5" y="151.9951">HTTP</text><!--MD5=[5b15d04c6eb656314d90c943872e8a65]
+entity w--><rect fill="#FEFECE" filter="url(#f1u9w68jcf7i3t)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="67" x="92.5" y="200"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="87.5" y="205"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="87.5" y="226.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="47" x="102.5" y="222.9951">worker</text><!--MD5=[e7de2c71ca0f205b4cc16dd2e14b005b]
+entity j--><rect fill="#FEFECE" filter="url(#f1u9w68jcf7i3t)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="46" x="30" y="296"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="25" y="301"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="25" y="322.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="26" x="40" y="318.9951">java</text><!--MD5=[be5750da26e06623bc49653cefaf97c7]
+entity p--><rect fill="#FEFECE" filter="url(#f1u9w68jcf7i3t)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="68" x="111" y="296"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="106" y="301"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="106" y="322.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="48" x="121" y="318.9951">python</text><!--MD5=[8e9b2d9d80e066cced8e5d90e9bdea61]
+entity c--><rect fill="#FEFECE" filter="url(#f1u9w68jcf7i3t)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="57" x="21.5" y="8"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="16.5" y="13"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="16.5" y="34.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="37" x="31.5" y="30.9951">client</text><!--MD5=[502f30baf3cdfc0ce5e8c5b24d99928b]
+reverse link w to j--><path d="M100.0945,252.0675 C88.9144,266.7701 76.2823,283.3822 66.9174,295.6977 " fill="none" id="w&lt;-j" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="none" points="94.5913,247.7399,112.2693,236.0569,105.7354,256.214,94.5913,247.7399" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[3a0f9c6d988c29ca42286c70611c3f98]
+reverse link w to p--><path d="M133.5094,255.9422 C136.2178,269.6267 139.1522,284.4531 141.3777,295.6977 " fill="none" id="w&lt;-p" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="none" points="126.59,257.0354,129.5738,236.0569,140.3236,254.3172,126.59,257.0354" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[dbc80019ef33e668c8d7ccc0688f0f76]
+link si to s--><path d="M59.2031,122 C70.9448,122 82.6864,122 94.428,122 " fill="none" id="si-s" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[c495a7bcaac895366cd2939c52816d58]
+link c to si--><path d="M50,44.0569 C50,62.4049 50,90.4716 50,107.4452 " fill="none" id="c-&gt;si" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="50,112.7461,54,103.7461,50,107.7461,46,103.7461,50,112.7461" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[089695288d46fcfd5eda8a84bcb1f832]
+link s to w--><path d="M126,140.0569 C126,155.5126 126,177.8647 126,194.6731 " fill="none" id="s-&gt;w" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="126,199.6977,130,190.6977,126,194.6977,122,190.6977,126,199.6977" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[3e3123b4f12a1fd92eca28e97fdc452b]
+@startuml
+[client] as c
+
+node {
+
+package "Workers" {
+  [worker] as w
+  [java] as j
+  [python] as p
+  
+  w <|- - j
+  w <|- - p
+}
+
+[server] as s
+() HTTP as si
+si -right- s
+}
+
+c - -> si
+s - -> w
+@enduml
+
+PlantUML version 1.2019.11(Sun Sep 22 10:02:15 GMT 2019)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 14-ea+15
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

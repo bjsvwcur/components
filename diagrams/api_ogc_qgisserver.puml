@@ -1,0 +1,71 @@
+@startuml
+[Permission Service] as ps
+() HTTP as psi
+ps - psi
+ 
+database "Config-DB" {
+  [data] as config
+}
+
+database "Geo-DB" {
+  [data] as data
+}
+
+package "QGIS as OGC Server"{
+
+  together {
+  [QGIS-Server] as qs
+  () WMS as wmi
+  () WFS as wfi
+  wfi -- qs
+  wmi -- qs
+  qs --> data
+  qs --> config
+  }
+  
+
+  package "WMS Feature Info" {
+  	[Controller] as ctr
+    [SingleLayerInfo] as sli
+    [WMS-Info] as wi
+    [DB-Query] as dbq
+    [Py-Module] as py
+    [HTMLRenderer] as rend
+    
+    ctr --> sli
+    ctr --> rend
+    ctr --> config
+    sli <|-- wi
+    sli <|-- dbq
+    sli <|-- py
+    wi --> wmi
+    dbq --> data
+  }
+  
+  
+  together {
+  [Proxy] as am
+  () HTTP as ami
+  ami - am
+  am --> psi   
+  am --> wmi
+  am --> wfi
+  am --> ctr : WMS FeatureInfo
+  }
+  
+  note right of am
+	Proxy (OGC-Service) macht 
+    access management sowie 
+    Strukturumbau bei 
+    WMS-Aufruf (Facadelayer, ...)
+  end note
+  
+}
+
+
+
+
+
+[Client] as cl
+cl --> ami
+@enduml

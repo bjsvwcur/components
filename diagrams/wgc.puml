@@ -1,0 +1,135 @@
+@startuml
+[Permission Service] as ps
+() HTTP as psi
+psi - ps
+
+database "Config-DB" {
+  [data] as config
+}
+
+database "Geo-DB" {
+  [data] as data
+}
+  
+node "API" {  
+together {
+  [QGIS Server] as qgs
+  () HTTP as qsi
+  qsi - qgs
+  () WMS as wms
+  qgs - wms
+
+  note top of qgs   
+    @sourcepole: WMS-Requests
+    (Capabilities, Map, Featureinfo)
+    komplett innerhalb Standard?
+  end note 
+}
+
+  [Searchservice] as ss
+  () HTTP as ssi
+  ssi - ss
+
+  [Dataservice] as ds
+  () HTTP as dsi
+  dsi - ds
+
+  [Dataproduct Service] as dp
+  () HTTP as dpi
+  dpi - dp
+}
+
+package "Web GIS Client"{
+
+  'Collector Point for Permission Service
+  () . as psp 
+  psp --> psi
+
+  'Collector Point for Database
+  () . as dap 
+  dap --> data
+
+  'Collector Point for Konfig-DB
+  () . as cop 
+  cop --> config
+
+  package {
+  [QGS-Server Proxies] as qpr
+  () HTTP as qpi
+  qpr - qpi
+  qpr -up-> qsi
+  qpr --> psp
+  
+  note bottom of qpr
+    Proxy Images für QGIS-Server 
+    Funktionen ausserhalb der
+    OGC-Standards.
+    
+    Images (Komponenten):
+    - [GetPrint]
+    - [GetLegend]
+    - [Grundbuchplan]
+    
+    Grundbuchplan ist nicht von
+    Permissionservice abhängig.
+  end note
+  }
+
+  together {
+    [WGC Server] as wgc
+    () HTTP as wgi
+    wgi - wgc
+  }
+  wgc --> psp
+
+  package {
+    [Jasper] as jas
+    [Document Srv.] as rep
+    () HTTP as repi
+    rep --> jas
+    rep - repi
+    rep --> psp
+  }
+  
+  together {
+    [Mapinfo] as mi
+    () HTTP as mii
+    mii - mi
+    mi --> psp
+    mi --> dap
+  }
+   
+  together {
+    [Permalink] as pl
+    () HTTP as pli
+    pli - pl
+    pl --> cop
+  }
+  
+  together {
+    [CCC-Config] as cc
+    () HTTP as cci
+    cci - cc
+  }
+  
+  
+  [Web GIS Client (Browser)] as cl
+  cl --> wgi
+  cl -up-> wms
+  cl -up-> ssi
+  cl -up-> dsi
+  cl -up-> dpi
+  cl --> repi
+  cl --> mii
+  cl --> pli : ../map?k=.. via proxy?
+  cl --> cci
+  cl --> qpi
+}
+
+legend bottom
+  todo: Abhängigkeiten "ausserhalb" nicht abgebildet
+  (Permission Srv, Datenbankben, ...)
+endlegend
+@enduml
+
+

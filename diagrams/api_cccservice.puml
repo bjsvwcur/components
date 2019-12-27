@@ -1,0 +1,26 @@
+@startuml
+[CCC-Service] as ccc
+() WS as cci
+ccc - cci
+
+note left of ccc
+	Diagramm zeigt die Verbindungsaufnahme
+    von Fach- und Kartenapplikation mit dem
+    CCC-Service.
+    Nach der Verbindungsaufnahme erfolgt die
+    Kommunikation bidirektional.
+    
+    Diagramm hat so wenig Aussagekraft. 
+    Evtl. ersetzen mit Sequenzdiagramm
+end note
+
+[Fachapplikation] as fa
+() WS as fai
+fa - fai
+fai --> cci
+
+[GDI Kartenapplikation] as gis
+() WS as gisi
+gis - gisi
+gisi --> cci
+@enduml

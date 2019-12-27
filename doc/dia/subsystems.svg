@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="500px" preserveAspectRatio="none" style="width:698px;height:500px;" version="1.1" viewBox="0 0 698 500" width="698px" zoomAndPan="magnify"><defs><filter height="300%" id="fitc81rd67s9q" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><path d="M535,314 C535,304 590,304 590,304 C590,304 645,304 645,314 L645,346 C645,356 590,356 590,356 C590,356 535,356 535,346 L535,314 " fill="#FFFFFF" filter="url(#fitc81rd67s9q)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M535,314 C535,324 590,324 590,324 C590,324 645,324 645,314 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><path d="M377,218 C377,208 429,208 429,208 C429,208 481,208 481,218 L481,250 C481,260 429,260 429,260 C429,260 377,260 377,250 L377,218 " fill="#FFFFFF" filter="url(#fitc81rd67s9q)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M377,218 C377,228 429,228 429,228 C429,228 481,228 481,218 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><path d="M83,218 C83,208 135,208 135,208 C135,208 187,208 187,218 L187,250 C187,260 135,260 135,260 C135,260 83,260 83,250 L83,218 " fill="#FFFFFF" filter="url(#fitc81rd67s9q)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M83,218 C83,228 135,228 135,228 C135,228 187,228 187,218 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><polygon fill="#FFFFFF" filter="url(#fitc81rd67s9q)" points="180,122,190,112,238,112,238,154,228,164,180,164,180,122" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="228" x2="237" y1="122" y2="113"/><line style="stroke: #000000; stroke-width: 1.5;" x1="180" x2="228" y1="122" y2="122"/><line style="stroke: #000000; stroke-width: 1.5;" x1="228" x2="228" y1="122" y2="164"/><polygon fill="#FFFFFF" filter="url(#fitc81rd67s9q)" points="549,122,559,112,631,112,631,154,621,164,549,164,549,122" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="621" x2="630" y1="122" y2="113"/><line style="stroke: #000000; stroke-width: 1.5;" x1="549" x2="621" y1="122" y2="122"/><line style="stroke: #000000; stroke-width: 1.5;" x1="621" x2="621" y1="122" y2="164"/><polygon fill="#FFFFFF" filter="url(#fitc81rd67s9q)" points="328,122,338,112,530,112,530,154,520,164,328,164,328,122" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="520" x2="529" y1="122" y2="113"/><line style="stroke: #000000; stroke-width: 1.5;" x1="328" x2="520" y1="122" y2="122"/><line style="stroke: #000000; stroke-width: 1.5;" x1="520" x2="520" y1="122" y2="164"/><polygon fill="#FFFFFF" filter="url(#fitc81rd67s9q)" points="14,26,24,16,152,16,152,58,142,68,14,68,14,26" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="142" x2="151" y1="26" y2="17"/><line style="stroke: #000000; stroke-width: 1.5;" x1="14" x2="142" y1="26" y2="26"/><line style="stroke: #000000; stroke-width: 1.5;" x1="142" x2="142" y1="26" y2="68"/><polygon fill="#FFFFFF" filter="url(#fitc81rd67s9q)" points="208,26,218,16,320,16,320,58,310,68,208,68,208,26" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="310" x2="319" y1="26" y2="17"/><line style="stroke: #000000; stroke-width: 1.5;" x1="208" x2="310" y1="26" y2="26"/><line style="stroke: #000000; stroke-width: 1.5;" x1="310" x2="310" y1="26" y2="68"/><polygon fill="#FFFFFF" filter="url(#fitc81rd67s9q)" points="418,26,428,16,548,16,548,58,538,68,418,68,418,26" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="538" x2="547" y1="26" y2="17"/><line style="stroke: #000000; stroke-width: 1.5;" x1="418" x2="538" y1="26" y2="26"/><line style="stroke: #000000; stroke-width: 1.5;" x1="538" x2="538" y1="26" y2="68"/><!--MD5=[1be1e8e9c1fa15d6e082466842209191]
+entity ldap--><rect fill="#FEFECE" filter="url(#fitc81rd67s9q)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="94" x="543" y="312"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="538" y="317"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="538" y="338.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="74" x="553" y="334.9951">OpenLDAP</text><!--MD5=[703ea5a149c5871c74522bf38bdfe548]
+entity data--><rect fill="#FEFECE" filter="url(#fitc81rd67s9q)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="89" x="384.5" y="216"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="379.5" y="221"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="379.5" y="242.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="69" x="394.5" y="238.9951">Geodaten</text><!--MD5=[caf660ac2a54b55a5c31b5515889e628]
+entity config--><rect fill="#FEFECE" filter="url(#fitc81rd67s9q)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="89" x="90.5" y="216"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="85.5" y="221"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="85.5" y="242.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="69" x="100.5" y="238.9951">Konfig-DB</text><!--MD5=[e2307af040e3f87d22824e7603ca28ec]
+entity api--><rect fill="#FEFECE" filter="url(#fitc81rd67s9q)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="41" x="188.5" y="120"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="183.5" y="125"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="183.5" y="146.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="21" x="198.5" y="142.9951">API</text><!--MD5=[0cae755b001df2f0010dede1e2bdc42b]
+entity gretl--><rect fill="#FEFECE" filter="url(#fitc81rd67s9q)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="66" x="557" y="120"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="552" y="125"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="552" y="146.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="46" x="567" y="142.9951">GRETL</text><!--MD5=[11f3401a81a7ac67c84a96784aa38d8b]
+entity gsi--><rect fill="#FEFECE" filter="url(#fitc81rd67s9q)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="186" x="336" y="120"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="331" y="125"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="331" y="146.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="166" x="346" y="142.9951">Grundstücksinformation</text><!--MD5=[732fdfc8304d9bab6808dc58caf73870]
+entity wgc--><rect fill="#FEFECE" filter="url(#fitc81rd67s9q)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="121" x="22.5" y="24"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="17.5" y="29"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="17.5" y="50.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="101" x="32.5" y="46.9951">Web GIS Client</text><!--MD5=[b5183565dd24eebd71dfeda5f2d582a6]
+entity qgis--><rect fill="#FEFECE" filter="url(#fitc81rd67s9q)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="97" x="215.5" y="24"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="210.5" y="29"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="210.5" y="50.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="77" x="225.5" y="46.9951">QGIS Client</text><!--MD5=[80dabf241d271177efc0216b16049b74]
+entity export--><rect fill="#FEFECE" filter="url(#fitc81rd67s9q)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="114" x="426" y="24"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="421" y="29"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="421" y="50.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="94" x="436" y="46.9951">Datenabgabe</text><!--MD5=[c95b894d02261427d7f56cdb74d4cfa6]
+link data to ldap--><path d="M459.2829,252.0569 C486.519,268.297 526.5244,292.1512 555.096,309.1877 " fill="none" id="data-&gt;ldap" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="559.5797,311.8612,553.8981,303.8164,555.2852,309.3005,549.801,310.6876,559.5797,311.8612" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[9bc9466b69828516ee8e9ebbe145f8dd]
+link api to data--><path d="M229.7716,149.8976 C238.1266,154.5123 247.9172,159.7077 257,164 C297.423,183.1027 344.5251,202.0509 379.2074,215.4062 " fill="none" id="api-&gt;data" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="384.2321,217.3354,377.264,210.3751,379.5644,215.5431,374.3964,217.8435,384.2321,217.3354" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[d2ff25617948083bdc92a3a5e4195fe5]
+link api to config--><path d="M195.0812,156.0569 C182.9619,171.7791 165.3419,194.6375 152.3149,211.5375 " fill="none" id="api-&gt;config" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="149.108,215.6977,157.7707,211.0117,152.1606,211.7377,151.4346,206.1276,149.108,215.6977" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[01e2230d07732dbbe4ccc385f3e2d1a4]
+link gretl to data--><path d="M559.7171,156.0569 C532.481,172.297 492.4756,196.1512 463.904,213.1877 " fill="none" id="gretl-&gt;data" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="459.4203,215.8612,469.199,214.6876,463.7148,213.3005,465.1019,207.8164,459.4203,215.8612" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[464ed9b26fe976432bc967d3abb48e46]
+link gretl to ldap--><path d="M590,156.0629 C590,190.9412 590,267.5397 590,306.3957 " fill="none" id="gretl-&gt;ldap" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="590,311.8452,594,302.8452,590,306.8452,586,302.8452,590,311.8452" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[535df6865f690183f3360cdf8f5a40f7]
+link gsi to data--><path d="M429,156.0569 C429,171.5126 429,193.8647 429,210.6731 " fill="none" id="gsi-&gt;data" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="429,215.6977,433,206.6977,429,210.6977,425,206.6977,429,215.6977" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[efc9e51112caebbf91624b4ee988d931]
+link wgc to config--><path d="M86.0573,60.3951 C90.2524,84.4581 98.4849,127.8151 109,164 C113.6396,179.9659 120.1559,197.5031 125.5042,211.0302 " fill="none" id="wgc-&gt;config" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="127.4161,215.8221,127.7962,205.9806,125.5632,211.1781,120.3657,208.9452,127.4161,215.8221" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[44dd0d94c2bfd85df2649fab376b3b3e]
+link wgc to api--><path d="M106.6996,60.0569 C128.8461,76.9303 161.7805,102.0232 184.2578,119.1488 " fill="none" id="wgc-&gt;api" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="188.3281,122.25,183.5935,113.6138,184.351,119.2197,178.7451,119.9772,188.3281,122.25" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[976eadaf6f8d8ad9b908f60f6d870ccb]
+link qgis to data--><path d="M268.8526,60.3529 C276.3506,85.932 292.7988,132.6795 320,164 C337.8978,184.6083 363.3243,201.4095 385.1182,213.3815 " fill="none" id="qgis-&gt;data" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="389.7096,215.8625,383.6933,208.0648,385.3107,213.4855,379.8901,215.103,389.7096,215.8625" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[ca31137927b600b94dcf995e8628eabf]
+link qgis to api--><path d="M253.6549,60.0569 C244.7237,75.6459 231.7731,98.2506 222.1161,115.1065 " fill="none" id="qgis-&gt;api" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="219.4857,119.6977,227.4304,113.8769,221.9712,115.3592,220.4888,109.9001,219.4857,119.6977" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[2a24836508c48f21238e4d344fd5280a]
+link qgis to config--><path d="M230.7982,60.0486 C211.1079,72.3155 187.1205,90.2465 172,112 C150.9195,142.328 141.6,184.9568 137.666,210.9628 " fill="none" id="qgis-&gt;config" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="136.9491,215.9338,142.1928,207.5969,137.6628,210.985,134.2747,206.455,136.9491,215.9338" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[07031c7d4c70da2359ef56d131bbf61d]
+link qgis to ldap--><path d="M312.6215,50.6658 C413.4865,68.6972 636.3817,108.8477 639,112 C686.9254,169.6993 634.4996,264.6044 605.974,307.5944 " fill="none" id="qgis-&gt;ldap" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="603.1246,311.8364,611.4634,306.5958,605.9126,307.6858,604.8225,302.135,603.1246,311.8364" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#DDDDDD" height="107.7813" rx="5" ry="5" style="stroke: #000000; stroke-width: 1.0;" width="432" x="122" y="382"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="312" x="128" y="399.9951">Pfeile zeigen die Abhängigkeiten zur Laufzeit.</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="270" x="140" y="416.292">A --&gt; B bedeutet: A ist von B abhängig.</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="140" y="432.5889"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="39" x="140" y="448.8857">QGIS:</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="148" x="140" y="465.1826">- Inklusive SO-Locator</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="408" x="140" y="481.4795">- Abhängigkeit auf Konfig-DB aufgrund Dataproduct-Service</text><!--MD5=[003e4855febe1ca979d32e3563b89a06]
+@startuml
+database {
+[OpenLDAP] as ldap
+}
+
+database {
+[Geodaten] as data
+}
+data - -> ldap
+
+database {
+[Konfig-DB] as config
+}
+
+node {
+	[API] as api
+}
+api - -> data
+api - -> config
+
+node {
+	[GRETL] as gretl
+}
+gretl - -> data
+gretl - -> ldap
+
+node {
+	[Grundstücksinformation] as gsi
+}
+gsi - -> data
+
+node {
+	[Web GIS Client] as wgc
+}
+wgc - -> config
+wgc - -> api
+
+node {
+	[QGIS Client] as qgis
+}
+qgis - -> data
+qgis - -> api
+qgis - -> config
+qgis - -> ldap
+
+node {
+	[Datenabgabe] as export
+}
+
+legend bottom
+	Pfeile zeigen die Abhängigkeiten zur Laufzeit.
+    A - -> B bedeutet: A ist von B abhängig.
+    
+    QGIS: 
+    - Inklusive SO-Locator
+    - Abhängigkeit auf Konfig-DB aufgrund Dataproduct-Service
+endlegend
+@enduml
+
+PlantUML version 1.2019.11(Sun Sep 22 10:02:15 GMT 2019)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 14-ea+15
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

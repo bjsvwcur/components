@@ -1,0 +1,58 @@
+@startuml
+database {
+[OpenLDAP] as ldap
+}
+
+database {
+[Geodaten] as data
+}
+data --> ldap
+
+database {
+[Konfig-DB] as config
+}
+
+node {
+	[API] as api
+}
+api --> data
+api --> config
+
+node {
+	[GRETL] as gretl
+}
+gretl --> data
+gretl --> ldap
+
+node {
+	[Grundstücksinformation] as gsi
+}
+gsi --> data
+
+node {
+	[Web GIS Client] as wgc
+}
+wgc --> config
+wgc --> api
+
+node {
+	[QGIS Client] as qgis
+}
+qgis --> data
+qgis --> api
+qgis --> config
+qgis --> ldap
+
+node {
+	[Datenabgabe] as export
+}
+
+legend bottom
+	Pfeile zeigen die Abhängigkeiten zur Laufzeit.
+    A --> B bedeutet: A ist von B abhängig.
+    
+    QGIS: 
+    - Inklusive SO-Locator
+    - Abhängigkeit auf Konfig-DB aufgrund Dataproduct-Service
+endlegend
+@enduml

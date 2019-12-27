@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="460px" preserveAspectRatio="none" style="width:646px;height:460px;" version="1.1" viewBox="0 0 646 460" width="646px" zoomAndPan="magnify"><defs><filter height="300%" id="f7fautj5btre7" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[9a2e14545ff35eb8fb8c7a6692523083]
+cluster Config-DB--><path d="M398.1596,225 C398.1596,215 445.1596,215 445.1596,215 C445.1596,215 492.1596,215 492.1596,225 L492.1596,291 C492.1596,301 445.1596,301 445.1596,301 C445.1596,301 398.1596,301 398.1596,291 L398.1596,225 " fill="#FFFFFF" filter="url(#f7fautj5btre7)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M398.1596,225 C398.1596,235 445.1596,235 445.1596,235 C445.1596,235 492.1596,235 492.1596,225 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="78" x="406.1596" y="249.9951">Config-DB</text><!--MD5=[3a337bb9fa499dcfc2248c91a2444cbc]
+cluster Geo-DB--><path d="M98.1596,225 C98.1596,215 135.6596,215 135.6596,215 C135.6596,215 173.1596,215 173.1596,225 L173.1596,291 C173.1596,301 135.6596,301 135.6596,301 C135.6596,301 98.1596,301 98.1596,291 L98.1596,225 " fill="#FFFFFF" filter="url(#f7fautj5btre7)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M98.1596,225 C98.1596,235 135.6596,235 135.6596,235 C135.6596,235 173.1596,235 173.1596,225 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="59" x="106.1596" y="249.9951">Geo-DB</text><!--MD5=[2be1c7d8e07b290ce0a12e4e003dd59b]
+cluster QGIS Desktop--><polygon fill="#FFFFFF" filter="url(#f7fautj5btre7)" points="14.1596,16,128.1596,16,135.1596,38.2969,215.1596,38.2969,215.1596,109,14.1596,109,14.1596,16" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="14.1596" x2="135.1596" y1="38.2969" y2="38.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="108" x="18.1596" y="30.9951">QGIS Desktop</text><!--MD5=[caf660ac2a54b55a5c31b5515889e628]
+entity config--><rect fill="#FEFECE" filter="url(#f7fautj5btre7)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="50" x="420.1596" y="257"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="415.1596" y="262"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="415.1596" y="283.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="30" x="430.1596" y="279.9951">data</text><!--MD5=[703ea5a149c5871c74522bf38bdfe548]
+entity data--><rect fill="#FEFECE" filter="url(#f7fautj5btre7)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="50" x="110.1596" y="257"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="105.1596" y="262"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="105.1596" y="283.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="30" x="120.1596" y="279.9951">data</text><!--MD5=[b5183565dd24eebd71dfeda5f2d582a6]
+entity qgis--><ellipse cx="49.1596" cy="72" fill="#FEFECE" filter="url(#f7fautj5btre7)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="34" x="32.1596" y="101.9951">QGIS</text><!--MD5=[d7e357a9d65542d4484f3ff5e134c26a]
+entity loc--><rect fill="#FEFECE" filter="url(#f7fautj5btre7)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="96" x="111.1596" y="54"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="106.1596" y="59"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="106.1596" y="80.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="76" x="121.1596" y="76.9951">SO-Locator</text><!--MD5=[9ab3177c0a0e3009d2054dc1b40b3e84]
+entity lda--><rect fill="#FEFECE" filter="url(#f7fautj5btre7)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="94" x="179.1596" y="353"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="174.1596" y="358"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="174.1596" y="379.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="74" x="189.1596" y="375.9951">OpenLDAP</text><!--MD5=[5ca77e21c6bcece74d0e981bbfd5251c]
+entity ldi--><ellipse cx="135.1596" cy="371" fill="#FEFECE" filter="url(#f7fautj5btre7)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="36" x="117.1596" y="400.9951">LDAP</text><!--MD5=[727c1040af9be188ab17d19c49f9ac10]
+entity ds--><rect fill="#FEFECE" filter="url(#f7fautj5btre7)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="101" x="84.6596" y="161"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="79.6596" y="166"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="79.6596" y="187.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="81" x="94.6596" y="183.9951">Dataservice</text><!--MD5=[1d42f4435bbf9d96b0849b1fd5c61acc]
+entity dsi--><ellipse cx="40.1596" cy="179" fill="#FEFECE" filter="url(#f7fautj5btre7)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="37" x="21.6596" y="208.9951">HTTP</text><!--MD5=[72f941736658486a9447ee9af01ffec8]
+entity ss--><rect fill="#FEFECE" filter="url(#f7fautj5btre7)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="117" x="274.6596" y="161"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="269.6596" y="166"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="269.6596" y="187.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="97" x="284.6596" y="183.9951">Searchservice</text><!--MD5=[063cbf6762d4fa7b9db7b3b5ba06ac49]
+entity ssi--><ellipse cx="230.1596" cy="179" fill="#FEFECE" filter="url(#f7fautj5btre7)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="37" x="211.6596" y="208.9951">HTTP</text><!--MD5=[607550e39add5cb93f60b7cda3cc28c1]
+entity dps--><rect fill="#FEFECE" filter="url(#f7fautj5btre7)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="155" x="480.6596" y="161"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="475.6596" y="166"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="475.6596" y="187.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="135" x="490.6596" y="183.9951">Dataproductservice</text><!--MD5=[c50e61c9ad0197b690f27cd008f76451]
+entity dpi--><ellipse cx="436.1596" cy="179" fill="#FEFECE" filter="url(#f7fautj5btre7)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="37" x="417.6596" y="208.9951">HTTP</text><!--MD5=[2d30e8113978d148a75683c9387efe9f]
+link ldi to lda--><path d="M144.4018,371 C155.899,371 167.3961,371 178.8933,371 " fill="none" id="ldi-lda" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[345e2cf8dd3356ec2f8af68b46a0c8a4]
+link data to ldi--><path d="M135.1596,293.0569 C135.1596,311.4049 135.1596,339.4716 135.1596,356.4452 " fill="none" id="data-&gt;ldi" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="135.1596,361.7461,139.1596,352.7461,135.1596,356.7461,131.1596,352.7461,135.1596,361.7461" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[7b01e19f8baed2eefa6e900310acfe3c]
+link dsi to ds--><path d="M49.4369,179 C61.1568,179 72.8767,179 84.5966,179 " fill="none" id="dsi-ds" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[c6e8f59a1188210fb1937aa72981a249]
+link ds to data--><path d="M135.1596,197.0569 C135.1596,212.5126 135.1596,234.8647 135.1596,251.6731 " fill="none" id="ds-&gt;data" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="135.1596,256.6977,139.1596,247.6977,135.1596,251.6977,131.1596,247.6977,135.1596,256.6977" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[b66822072d056e29c1406c87b452c5e0]
+link ssi to ss--><path d="M239.4135,179 C251.1317,179 262.85,179 274.5683,179 " fill="none" id="ssi-ss" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[45dc2bbc73017d6d34a7242452b64be3]
+link ss to data--><path d="M295.9173,197.0569 C257.9651,215.4579 199.852,243.634 164.8758,260.5921 " fill="none" id="ss-&gt;data" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="160.3086,262.8065,170.152,262.4792,164.8077,260.6251,166.6618,255.2808,160.3086,262.8065" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[c8a5a99beb1ab3ceb3c2b57986a75e7a]
+link ss to config--><path d="M354.2259,197.0569 C372.8794,213.0456 400.1431,236.4144 419.9498,253.3916 " fill="none" id="ss-&gt;config" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="423.8069,256.6977,419.5768,247.8035,420.0106,253.4437,414.3704,253.8775,423.8069,256.6977" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[d82063831456acb34112c7a09583bce9]
+link dpi to dps--><path d="M445.2143,179 C456.9794,179 468.7445,179 480.5097,179 " fill="none" id="dpi-dps" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[c9979abf8f7ff6f8c8e090ceee87e666]
+link dps to config--><path d="M536.9051,197.0569 C518.0851,213.0456 490.578,236.4144 470.5945,253.3916 " fill="none" id="dps-&gt;config" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="466.7029,256.6977,476.1517,253.9191,470.5134,253.4604,470.9721,247.8222,466.7029,256.6977" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[976eadaf6f8d8ad9b908f60f6d870ccb]
+link qgis to data--><path d="M41.8696,81.3167 C25.9848,102.8333 -8.6417,157.1853 13.1596,197 C32.5629,232.4354 75.6815,254.119 105.0948,265.3522 " fill="none" id="qgis-&gt;data" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="110.0548,267.1975,103.0146,260.3102,105.3687,265.4539,100.2249,267.808,110.0548,267.1975" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[de57fd627f280692f074bd35c39ddf45]
+link loc to ssi--><path d="M171.2038,90.1511 C185.3552,111.4779 208.5076,146.3696 221.178,165.4644 " fill="none" id="loc-&gt;ssi" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="224.1616,169.9608,222.5184,160.25,221.3971,165.7946,215.8525,164.6732,224.1616,169.9608" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[14543204e82f02aeb37fe33d9d501313]
+link loc to dpi--><path d="M207.5928,85.3703 C259.0385,100.4514 342.0375,127.3249 409.1596,161 C413.745,163.3005 418.4846,166.2419 422.6885,169.0773 " fill="none" id="loc-&gt;dpi" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="427.0072,172.0769,421.897,163.6575,422.9005,169.2247,417.3334,170.2282,427.0072,172.0769" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[0ec1dc07d4de0dd9ed5d244319536877]
+link loc to dsi--><path d="M138.9728,90.1511 C114.4792,112.1748 73.8975,148.6642 53.1889,167.2846 " fill="none" id="loc-&gt;dsi" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="49.3228,170.7608,58.6897,167.7176,53.0408,167.4177,53.3407,161.7688,49.3228,170.7608" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#DDDDDD" height="42.5938" rx="5" ry="5" style="stroke: #000000; stroke-width: 1.0;" width="253" x="200" y="407"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="221" x="206" y="424.9951">Permissionservice und Weiteres</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="241" x="206" y="441.292">von Searchservice nicht abgebildet</text><!--MD5=[7cc09beebf0a82052d084c93f54c92f7]
+@startuml
+[OpenLDAP] as lda
+() LDAP as ldi
+ldi - lda
+
+database "Config-DB" {
+  [data] as config
+}
+
+database "Geo-DB" {
+  [data] as data
+}
+data - -> ldi
+
+[Dataservice] as ds
+() HTTP as dsi
+dsi -ds
+ds - -> data
+
+[Searchservice] as ss
+() HTTP as ssi
+ssi - ss
+ss - -> data
+ss - -> config
+
+[Dataproductservice] as dps
+() HTTP as dpi
+dpi - dps
+dps - -> config
+
+
+package "QGIS Desktop" {
+  () "QGIS" as qgis
+  qgis - -> data
+  [SO-Locator] as loc
+  loc - -> ssi
+  loc - -> dpi
+  loc - -> dsi
+}
+
+legend bottom
+  Permissionservice und Weiteres 
+  von Searchservice nicht abgebildet
+endlegend
+@enduml
+
+PlantUML version 1.2019.11(Sun Sep 22 10:02:15 GMT 2019)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 14-ea+15
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

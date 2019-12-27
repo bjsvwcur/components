@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="771px" preserveAspectRatio="none" style="width:823px;height:771px;" version="1.1" viewBox="0 0 823 771" width="823px" zoomAndPan="magnify"><defs><filter height="300%" id="ficnpr44zb5gb" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[9a2e14545ff35eb8fb8c7a6692523083]
+cluster Config-DB--><path d="M193,502 C193,492 256,492 256,492 C256,492 319,492 319,502 L319,568 C319,578 256,578 256,578 C256,578 193,578 193,568 L193,502 " fill="#FFFFFF" filter="url(#ficnpr44zb5gb)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M193,502 C193,512 256,512 256,512 C256,512 319,512 319,502 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="78" x="217" y="526.9951">Config-DB</text><!--MD5=[f26ada6e9735d0f92762136fc77c0fd0]
+cluster Geodata--><path d="M337,502 C337,492 400,492 400,492 C400,492 463,492 463,502 L463,568 C463,578 400,578 400,578 C400,578 337,578 337,568 L337,502 " fill="#FFFFFF" filter="url(#ficnpr44zb5gb)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M337,502 C337,512 400,512 400,512 C400,512 463,512 463,502 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="66" x="367" y="526.9951">Geodata</text><!--MD5=[2543bc96e7f52754a5d168e5903ba0d4]
+cluster search--><polygon fill="#FFFFFF" filter="url(#ficnpr44zb5gb)" points="14,16,74,16,81,38.2969,601,38.2969,601,453,14,453,14,16" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="14" x2="81" y1="38.2969" y2="38.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="54" x="18" y="30.9951">search</text><!--MD5=[9b75e51328caceb55a2eb72be0e161e7]
+cluster Solr--><polygon fill="#FFFFFF" filter="url(#ficnpr44zb5gb)" points="22,374,59,374,66,396.2969,593,396.2969,593,445,22,445,22,374" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="22" x2="66" y1="396.2969" y2="396.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="31" x="26" y="388.9951">Solr</text><!--MD5=[591aa099c6d3cef85b0f0dfd708ffbd0]
+entity config_v--><rect fill="#FEFECE" filter="url(#ficnpr44zb5gb)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="109" x="201.5" y="534"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="196.5" y="539"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="196.5" y="560.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="89" x="211.5" y="556.9951">View *_solr_v</text><!--MD5=[cf30dc3c79da61a7dba34bdd00d1af12]
+entity data_v--><rect fill="#FEFECE" filter="url(#ficnpr44zb5gb)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="109" x="345.5" y="534"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="340.5" y="539"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="340.5" y="560.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="89" x="355.5" y="556.9951">View *_solr_v</text><!--MD5=[72f941736658486a9447ee9af01ffec8]
+entity ss--><rect fill="#FEFECE" filter="url(#ficnpr44zb5gb)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="117" x="448.5" y="202"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="443.5" y="207"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="443.5" y="228.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="97" x="458.5" y="224.9951">Searchservice</text><!--MD5=[063cbf6762d4fa7b9db7b3b5ba06ac49]
+entity ssi--><ellipse cx="404" cy="220" fill="#FEFECE" filter="url(#ficnpr44zb5gb)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="37" x="385.5" y="249.9951">HTTP</text><!--MD5=[0cae755b001df2f0010dede1e2bdc42b]
+entity gretl--><rect fill="#FEFECE" filter="url(#ficnpr44zb5gb)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="103" x="175.5" y="43"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="170.5" y="48"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="170.5" y="69.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="83" x="185.5" y="65.9951">GRETL - JOB</text><!--MD5=[87a45d9efec4dc55aaa2c09f6c8ae754]
+entity iu--><rect fill="#FEFECE" filter="url(#ficnpr44zb5gb)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="111" x="141.5" y="202"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="136.5" y="207"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="136.5" y="228.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="91" x="151.5" y="224.9951">Indexupdater</text><!--MD5=[ecedc9c0a6f37845eb39ab7dbd051950]
+entity iui--><ellipse cx="97" cy="220" fill="#FEFECE" filter="url(#ficnpr44zb5gb)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="37" x="78.5" y="249.9951">HTTP</text><!--MD5=[6eeaa62b8a5d6b2f1c6c83c9578a7204]
+entity AGDI Publish--><rect fill="#FEFECE" filter="url(#ficnpr44zb5gb)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="108" x="32" y="43"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="27" y="48"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="27" y="69.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="88" x="42" y="65.9951">AGDI Publish</text><!--MD5=[ca24774727c6a7db6ec5bf757f1cef1c]
+entity dih--><rect fill="#FEFECE" filter="url(#ficnpr44zb5gb)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="194" x="241" y="401"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="236" y="406"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="236" y="427.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="174" x="251" y="423.9951">DIH - Data Import Handler</text><!--MD5=[0d1276e92f93d7556df6d033e8298880]
+entity dihi--><ellipse cx="197" cy="419" fill="#FEFECE" filter="url(#ficnpr44zb5gb)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="37" x="178.5" y="448.9951">HTTP</text><!--MD5=[762d4ed389408908b7633191f2cd92c0]
+entity uhi--><ellipse cx="39" cy="419" fill="#FEFECE" filter="url(#ficnpr44zb5gb)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="37" x="20.5" y="448.9951">HTTP</text><!--MD5=[2d4da4d5470eb2cacf4345e7da2ae96c]
+entity qi--><ellipse cx="479" cy="419" fill="#FEFECE" filter="url(#ficnpr44zb5gb)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="37" x="460.5" y="448.9951">HTTP</text><!--MD5=[3a647a61df1c7067fe69e3daad57c818]
+entity Update--><rect fill="#FEFECE" filter="url(#ficnpr44zb5gb)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="70" x="83" y="401"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="78" y="406"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="78" y="427.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="50" x="93" y="423.9951">Update</text><!--MD5=[e22d6a9d9c77f876df59e8cb880c9837]
+entity Query--><rect fill="#FEFECE" filter="url(#ficnpr44zb5gb)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="61" x="523.5" y="401"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="518.5" y="406"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="518.5" y="427.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="41" x="533.5" y="423.9951">Query</text><!--MD5=[6857688d619609624168cacb5f029075]
+entity ps--><rect fill="#FEFECE" filter="url(#ficnpr44zb5gb)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="150" x="662" y="299"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="657" y="304"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="657" y="325.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="130" x="672" y="321.9951">Permission Service</text><!--MD5=[597be0cb6d297b3cdca9a72786000b3c]
+entity psi--><ellipse cx="618" cy="317" fill="#FEFECE" filter="url(#ficnpr44zb5gb)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="37" x="599.5" y="346.9951">HTTP</text><!--MD5=[402443ffaa12e6a14070c50d434b387c]
+link psi to ps--><path d="M627.2969,317 C638.7243,317 650.1517,317 661.5791,317 " fill="none" id="psi-ps" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[b35c4dc271156d034da51d02b369c373]
+link dih to config_v--><path d="M326.7702,437.2142 C312.009,461.1561 286.0779,503.2152 270.0378,529.2314 " fill="none" id="dih-&gt;config_v" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="267.3573,533.579,275.4855,528.0174,269.9814,529.3229,268.6758,523.8188,267.3573,533.579" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="26" x="307" y="480.0669">jdbc</text><!--MD5=[6ebe3d0ad68d8cdc729a86a06305d799]
+link dih to data_v--><path d="M346.4908,437.2142 C357.6056,461.0572 377.0963,502.8679 389.2354,528.9081 " fill="none" id="dih-&gt;data_v" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="391.4128,533.579,391.2357,523.7317,389.3003,529.0472,383.9848,527.1118,391.4128,533.579" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="26" x="368" y="480.0669">jdbc</text><!--MD5=[f43f2be87e06a5ac531ef1257dce7fb0]
+link uhi to Update--><path d="M48.2578,419 C59.7907,419 71.3236,419 82.8565,419 " fill="none" id="uhi-Update" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[fc08215d2ce44c5dc79cd51b042c8dc0]
+link dihi to dih--><path d="M206.0879,419 C217.6817,419 229.2756,419 240.8694,419 " fill="none" id="dihi-dih" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[0ec03dcca76f48dc25793f1b1bff974f]
+link qi to Query--><path d="M488.082,419 C499.8408,419 511.5996,419 523.3584,419 " fill="none" id="qi-Query" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[b66822072d056e29c1406c87b452c5e0]
+link ssi to ss--><path d="M413.2539,220 C424.9722,220 436.6904,220 448.4087,220 " fill="none" id="ssi-ss" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[93bfe14b4db463876c09e9e00c7fcb90]
+link ss to qi--><path d="M504.4658,238.0109 C498.9712,277.062 486.0531,368.8727 481.0394,404.5058 " fill="none" id="ss-&gt;qi" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="480.3049,409.7256,485.5202,401.3709,481.0017,404.7744,477.5983,400.256,480.3049,409.7256" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[37196d11793b2b5619f7bb73f3f0b777]
+link ss to psi--><path d="M533.1472,238.0924 C553.862,253.1022 582.8939,275.6906 605,299 C606.3528,300.4265 607.6826,301.999 608.9448,303.6027 " fill="none" id="ss-&gt;psi" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="612.0975,307.8419,609.9365,298.233,609.1138,303.8297,603.5171,303.007,612.0975,307.8419" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[8ae19a341fe22db7c1336fff1741515d]
+link iui to iu--><path d="M106.375,220 C118.0571,220 129.7393,220 141.4214,220 " fill="none" id="iui-iu" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[9c67fecc739c103e95615f44f7125835]
+link iu to uhi--><path d="M179.5735,238.0544 C153.1326,265.9282 102.0431,321.7012 65,374 C57.8944,384.032 50.9875,396.1323 46.0805,405.2576 " fill="none" id="iu-&gt;uhi" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="43.7063,409.7317,51.4583,403.6566,46.05,405.315,44.3916,399.9067,43.7063,409.7317" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[c5f6723273e3304db2a55efdac8a10fd]
+link iu to dihi--><path d="M197,238.0109 C197,277.062 197,368.8727 197,404.5058 " fill="none" id="iu-&gt;dihi" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="197,409.7256,201,400.7256,197,404.7256,193,400.7256,197,409.7256" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[6305687a4cbc09698f208eb4ad019cac]
+link iu to qi--><path d="M240.9264,238.0943 C295.8602,262.4444 390.2961,310.1796 453,374 C461.8312,382.9884 468.7647,395.5621 473.2429,405.1344 " fill="none" id="iu-&gt;qi" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="475.3579,409.8315,475.3101,399.9828,473.305,405.2724,468.0154,403.2673,475.3579,409.8315" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[2239a150e225528e9940b54447986ba4]
+link AGDI Publish to iui--><path d="M87.2618,79.2393 C89.4733,111.2048 94.0042,176.6975 96.0086,205.6695 " fill="none" id="AGDI Publish-&gt;iui" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="96.3743,210.9563,99.7435,201.7017,96.0292,205.9682,91.7626,202.2539,96.3743,210.9563" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[dfef18ffcc7d2d281c0a78907dd28e9a]
+link gretl to iui--><path d="M212.0873,79.2393 C185.6254,111.6044 131.0616,178.34 107.8425,206.7387 " fill="none" id="gretl-&gt;iui" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="104.3942,210.9563,113.1876,206.5205,107.559,207.0854,106.9941,201.4568,104.3942,210.9563" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#DDDDDD" height="156.6719" rx="5" ry="5" style="stroke: #000000; stroke-width: 1.0;" width="611" x="8" y="604"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="296" x="14" y="621.9951">Komponenten-Diagramm der SOLR-Suche:</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="18" y="638.292"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="562" x="14" y="654.5889">Beinhaltet die für die Bereitstellung des Suchservice notwendigen Komponenten.</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="455" x="14" y="670.8857">Die Clients konsumieren mittels Suchanfragen den Searchservice.</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="461" x="14" y="687.1826">Die Aktualisierung des Suchindexes erfolgt über den Indexupdater.</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="0" x="18" y="703.4795"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="195" x="14" y="719.7764">Abstraktionen im Diagramm:</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="599" x="14" y="736.0732">- Stellvertretend ist nur eine Datenbank als Datenquelle für den SOLR-Index dargestellt.</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="448" x="14" y="752.3701">- Die Abhängkeiten des Permission Service sind nicht abgebildet.</text><!--MD5=[4a35a5c617b6cd25eee4e405bb0a820a]
+@startuml
+[Permission Service] as ps
+() HTTP as psi
+psi - ps
+ 
+database "Config-DB" {
+  [View *_solr_v] as config_v
+}
+
+database "Geodata" {
+  [View *_solr_v] as data_v
+}
+
+
+package "search" {
+
+  package "Solr" {
+    [DIH - Data Import Handler] as dih
+    () HTTP as dihi    
+    dih - -> config_v : jdbc
+    dih - -> data_v : jdbc
+
+    () HTTP as uhi
+    () HTTP as qi
+
+    uhi - [Update]
+    dihi - [dih]
+    qi - [Query]
+  }
+
+  [Searchservice] as ss
+  () HTTP as ssi
+  ssi - ss
+  ss - -> qi
+  ss - -> psi
+
+  [GRETL - JOB] as gretl
+
+  [Indexupdater] as iu
+  () HTTP as iui
+  iui - iu
+  iu - -> uhi
+  iu - -> dihi
+  iu - -> qi
+
+  
+  [AGDI Publish] - -> iui
+  gretl - -> iui
+}
+
+
+
+
+
+
+
+
+
+
+
+legend bottom left
+  Komponenten-Diagramm der SOLR-Suche:
+
+  Beinhaltet die für die Bereitstellung des Suchservice notwendigen Komponenten.
+  Die Clients konsumieren mittels Suchanfragen den Searchservice.
+  Die Aktualisierung des Suchindexes erfolgt über den Indexupdater.
+  
+  Abstraktionen im Diagramm:
+  - Stellvertretend ist nur eine Datenbank als Datenquelle für den SOLR-Index dargestellt.
+  - Die Abhängkeiten des Permission Service sind nicht abgebildet.
+endlegend
+@enduml
+
+PlantUML version 1.2019.11(Sun Sep 22 10:02:15 GMT 2019)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 14-ea+15
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

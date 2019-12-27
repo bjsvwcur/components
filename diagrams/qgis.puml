@@ -1,0 +1,45 @@
+@startuml
+[OpenLDAP] as lda
+() LDAP as ldi
+ldi - lda
+
+database "Config-DB" {
+  [data] as config
+}
+
+database "Geo-DB" {
+  [data] as data
+}
+data --> ldi
+
+[Dataservice] as ds
+() HTTP as dsi
+dsi -ds
+ds --> data
+
+[Searchservice] as ss
+() HTTP as ssi
+ssi - ss
+ss --> data
+ss --> config
+
+[Dataproductservice] as dps
+() HTTP as dpi
+dpi - dps
+dps --> config
+
+
+package "QGIS Desktop" {
+  () "QGIS" as qgis
+  qgis --> data
+  [SO-Locator] as loc
+  loc --> ssi
+  loc --> dpi
+  loc --> dsi
+}
+
+legend bottom
+  Permissionservice und Weiteres 
+  von Searchservice nicht abgebildet
+endlegend
+@enduml

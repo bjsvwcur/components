@@ -1,0 +1,31 @@
+@startuml
+[OpenLDAP] as lda
+() LDAP as ldi
+ldi - lda
+
+database "Edit-DB" {
+  [data] as edit
+}
+
+database "Pub-DB" {
+  [data] as pub
+}
+
+[Model-Repo] as repo
+
+
+package "GRETL" {
+  [Jenkins] as jenk
+  [GRETL runtime] as gretl
+  jenk --> gretl
+  jenk --> ldi
+  gretl --> repo
+  gretl --> edit
+  gretl --> pub
+  
+  note left of gretl
+  	Art der Kommunikation 
+    Jenkins -> Jenkins Slave?
+  end note
+}
+@enduml

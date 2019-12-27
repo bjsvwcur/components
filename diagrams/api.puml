@@ -1,0 +1,43 @@
+@startuml
+[Permission Service] as ps
+() HTTP as psi
+psi -left- ps
+ 
+database "Config-DB" {
+  [data] as config
+}
+
+database "Geo-DB" {
+  [data] as data
+}
+
+node {
+  [Searchservice] as ss
+  () HTTP as ssi
+  ss - ssi
+  ss -up-> psi
+  ss -up-> data
+  ss -up-> config
+}
+
+[Dataservice] as ds
+() HTTP as dsi
+dsi -ds
+ds -up-> psi
+ds -up-> data
+
+node {
+  [CCC-Service] as ccc
+  () WS as ccci
+  ccci - ccc
+}
+
+node {
+    [OGC-Services] as ogc
+    () HTTP as ogi
+    ogi - ogc
+    ogc --> data
+    ogc --> config
+    ogc --> psi
+}
+@enduml

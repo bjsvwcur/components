@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1301px" preserveAspectRatio="none" style="width:1605px;height:1301px;" version="1.1" viewBox="0 0 1605 1301" width="1605px" zoomAndPan="magnify"><defs><filter height="300%" id="f1mkwuvj6cx6cv" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[9a2e14545ff35eb8fb8c7a6692523083]
+cluster Config-DB--><path d="M1499,901 C1499,891 1546,891 1546,891 C1546,891 1593,891 1593,901 L1593,967 C1593,977 1546,977 1546,977 C1546,977 1499,977 1499,967 L1499,901 " fill="#FFFFFF" filter="url(#f1mkwuvj6cx6cv)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M1499,901 C1499,911 1546,911 1546,911 C1546,911 1593,911 1593,901 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="78" x="1507" y="925.9951">Config-DB</text><!--MD5=[3a337bb9fa499dcfc2248c91a2444cbc]
+cluster Geo-DB--><path d="M1411,901 C1411,891 1448.5,891 1448.5,891 C1448.5,891 1486,891 1486,901 L1486,967 C1486,977 1448.5,977 1448.5,977 C1448.5,977 1411,977 1411,967 L1411,901 " fill="#FFFFFF" filter="url(#f1mkwuvj6cx6cv)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M1411,901 C1411,911 1448.5,911 1448.5,911 C1448.5,911 1486,911 1486,901 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="59" x="1419" y="925.9951">Geo-DB</text><!--MD5=[fac864e77539af95038f0151207ed802]
+cluster API--><polygon fill="#FFFFFF" filter="url(#f1mkwuvj6cx6cv)" points="74,26,84,16,962,16,962,400,952,410,74,410,74,26" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="952" x2="961" y1="26" y2="17"/><line style="stroke: #000000; stroke-width: 1.5;" x1="74" x2="952" y1="26" y2="26"/><line style="stroke: #000000; stroke-width: 1.5;" x1="952" x2="952" y1="26" y2="410"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="25" x="501.5" y="41.9951">API</text><!--MD5=[2dc93faa65b707db298b0f4fc2a25277]
+cluster Web GIS Client--><polygon fill="#FFFFFF" filter="url(#f1mkwuvj6cx6cv)" points="14,433,136,433,143,455.2969,1179,455.2969,1179,1222,14,1222,14,433" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="14" x2="143" y1="455.2969" y2="455.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="116" x="18" y="447.9951">Web GIS Client</text><polygon fill="#FFFFFF" filter="url(#f1mkwuvj6cx6cv)" points="22,627,80,627,87,637,254,637,254,1214,22,1214,22,627" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="22" x2="87" y1="637" y2="637"/><polygon fill="#FFFFFF" filter="url(#f1mkwuvj6cx6cv)" points="264,627,311.75,627,318.75,637,455,637,455,1144,264,1144,264,627" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="264" x2="318.75" y1="637" y2="637"/><!--MD5=[caf660ac2a54b55a5c31b5515889e628]
+entity config--><rect fill="#FEFECE" filter="url(#f1mkwuvj6cx6cv)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="50" x="1510" y="933"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="1505" y="938"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="1505" y="959.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="30" x="1520" y="955.9951">data</text><!--MD5=[703ea5a149c5871c74522bf38bdfe548]
+entity data--><rect fill="#FEFECE" filter="url(#f1mkwuvj6cx6cv)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="50" x="1425" y="933"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="1420" y="938"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="1420" y="959.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="30" x="1435" y="955.9951">data</text><!--MD5=[72f941736658486a9447ee9af01ffec8]
+entity ss--><rect fill="#FEFECE" filter="url(#f1mkwuvj6cx6cv)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="117" x="398.5" y="65.5"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="393.5" y="70.5"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="393.5" y="91.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="97" x="408.5" y="88.4951">Searchservice</text><!--MD5=[063cbf6762d4fa7b9db7b3b5ba06ac49]
+entity ssi--><ellipse cx="354" cy="83.5" fill="#FEFECE" filter="url(#f1mkwuvj6cx6cv)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="37" x="335.5" y="113.4951">HTTP</text><!--MD5=[727c1040af9be188ab17d19c49f9ac10]
+entity ds--><rect fill="#FEFECE" filter="url(#f1mkwuvj6cx6cv)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="101" x="604.5" y="65.5"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="599.5" y="70.5"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="599.5" y="91.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="81" x="614.5" y="88.4951">Dataservice</text><!--MD5=[1d42f4435bbf9d96b0849b1fd5c61acc]
+entity dsi--><ellipse cx="560" cy="83.5" fill="#FEFECE" filter="url(#f1mkwuvj6cx6cv)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="37" x="541.5" y="113.4951">HTTP</text><!--MD5=[2f0b3a19d94712a02025d561beb8fc0c]
+entity dp--><rect fill="#FEFECE" filter="url(#f1mkwuvj6cx6cv)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="160" x="794" y="65.5"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="789" y="70.5"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="789" y="91.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="140" x="804" y="88.4951">Dataproduct Service</text><!--MD5=[c50e61c9ad0197b690f27cd008f76451]
+entity dpi--><ellipse cx="750" cy="83.5" fill="#FEFECE" filter="url(#f1mkwuvj6cx6cv)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="37" x="731.5" y="113.4951">HTTP</text><!--MD5=[5833ba98d9942bebf367aa2b8c5981b9]
+entity qgs--><rect fill="#FEFECE" filter="url(#f1mkwuvj6cx6cv)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="102" x="151" y="358"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="146" y="363"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="146" y="384.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="82" x="161" y="380.9951">QGIS Server</text><!--MD5=[87e3743f24bef5337088c8ceb1e61e83]
+entity qsi--><ellipse cx="107" cy="376" fill="#FEFECE" filter="url(#f1mkwuvj6cx6cv)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="37" x="88.5" y="405.9951">HTTP</text><!--MD5=[3923164040798a36aef1821dc3f9d6d0]
+entity wms--><ellipse cx="298" cy="376" fill="#FEFECE" filter="url(#f1mkwuvj6cx6cv)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="34" x="281" y="405.9951">WMS</text><path d="M90.5,56 L90.5,111.3984 L309.5,111.3984 L309.5,66 L299.5,56 L90.5,56 " fill="#FBFB77" filter="url(#f1mkwuvj6cx6cv)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M299.5,56 L299.5,66 L309.5,66 L299.5,56 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="186" x="96.5" y="73.0669">@sourcepole: WMS-Requests</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="198" x="96.5" y="88.1997">(Capabilities, Map, Featureinfo)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="190" x="96.5" y="103.3325">komplett innerhalb Standard?</text><!--MD5=[e2565049cc169615cdc3a78d4ae6bce8]
+entity psp--><ellipse cx="586" cy="823" fill="#FEFECE" filter="url(#f1mkwuvj6cx6cv)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="4" x="584" y="852.9951">.</text><!--MD5=[7e02d30a59f5a5ba5200e5b7709d2bfb]
+entity dap--><ellipse cx="899" cy="823" fill="#FEFECE" filter="url(#f1mkwuvj6cx6cv)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="4" x="897" y="852.9951">.</text><!--MD5=[5689eb35b58030264171a4af46d4b8a9]
+entity cop--><ellipse cx="1090" cy="823" fill="#FEFECE" filter="url(#f1mkwuvj6cx6cv)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="4" x="1088" y="852.9951">.</text><!--MD5=[979c31051cf8d07bdf927ed864b836ec]
+entity cl--><rect fill="#FEFECE" filter="url(#f1mkwuvj6cx6cv)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="192" x="451" y="460"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="446" y="465"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="446" y="486.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="172" x="461" y="482.9951">Web GIS Client (Browser)</text><!--MD5=[e4d1428f0e17f9fc9ac38b4437be46b8]
+entity qpr--><rect fill="#FEFECE" filter="url(#f1mkwuvj6cx6cv)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="154" x="30" y="635"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="25" y="640"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="25" y="661.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="134" x="40" y="657.9951">QGS-Server Proxies</text><!--MD5=[78f9c1cf5afdc47b8d0a7d78d446ce24]
+entity qpi--><ellipse cx="228" cy="653" fill="#FEFECE" filter="url(#f1mkwuvj6cx6cv)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="37" x="209.5" y="682.9951">HTTP</text><path d="M30.5,1030 L30.5,1206.4609 L245.5,1206.4609 L245.5,1040 L235.5,1030 L30.5,1030 " fill="#FBFB77" filter="url(#f1mkwuvj6cx6cv)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M235.5,1030 L235.5,1040 L245.5,1040 L235.5,1030 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="190" x="36.5" y="1047.0669">Proxy Images für QGIS-Server</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="169" x="36.5" y="1062.1997">Funktionen ausserhalb der</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="104" x="36.5" y="1077.3325">OGC-Standards.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="40.5" y="1092.4653"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="155" x="36.5" y="1107.5981">Images (Komponenten):</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="71" x="36.5" y="1122.731">- [GetPrint]</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="89" x="36.5" y="1137.8638">- [GetLegend]</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="116" x="36.5" y="1152.9966">- [Grundbuchplan]</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="40.5" y="1168.1294"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="178" x="36.5" y="1183.2622">Grundbuchplan ist nicht von</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="182" x="36.5" y="1198.395">Permissionservice abhängig.</text><!--MD5=[732fdfc8304d9bab6808dc58caf73870]
+entity wgc--><rect fill="#FEFECE" filter="url(#f1mkwuvj6cx6cv)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="102" x="535" y="635"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="530" y="640"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="530" y="661.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="82" x="545" y="657.9951">WGC Server</text><!--MD5=[c4772b71920a71612caf6abb01e246c0]
+entity wgi--><ellipse cx="491" cy="653" fill="#FEFECE" filter="url(#f1mkwuvj6cx6cv)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="37" x="472.5" y="682.9951">HTTP</text><!--MD5=[cfee63f92cf037dee27c79040ec46d88]
+entity jas--><rect fill="#FEFECE" filter="url(#f1mkwuvj6cx6cv)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="62" x="302" y="1100"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="297" y="1105"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="297" y="1126.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="42" x="312" y="1122.9951">Jasper</text><!--MD5=[81706498707a5d8e052123cee1fc602f]
+entity rep--><rect fill="#FEFECE" filter="url(#f1mkwuvj6cx6cv)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="122" x="272" y="635"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="267" y="640"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="267" y="661.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="102" x="282" y="657.9951">Document Srv.</text><!--MD5=[3376fd5f3333a2f0ca34e7f7f5d47030]
+entity repi--><ellipse cx="438" cy="653" fill="#FEFECE" filter="url(#f1mkwuvj6cx6cv)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="37" x="419.5" y="682.9951">HTTP</text><!--MD5=[aea270b37b0ac7a05558ae0e40970a01]
+entity mi--><rect fill="#FEFECE" filter="url(#f1mkwuvj6cx6cv)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="74" x="725" y="635"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="720" y="640"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="720" y="661.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="54" x="735" y="657.9951">Mapinfo</text><!--MD5=[240d4dfda9ca858634702dc2f1e3fadf]
+entity mii--><ellipse cx="681" cy="653" fill="#FEFECE" filter="url(#f1mkwuvj6cx6cv)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="37" x="662.5" y="682.9951">HTTP</text><!--MD5=[c220d3e15d646e6ed0402fa6d2a96260]
+entity pl--><rect fill="#FEFECE" filter="url(#f1mkwuvj6cx6cv)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="87" x="887.5" y="635"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="882.5" y="640"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="882.5" y="661.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="67" x="897.5" y="657.9951">Permalink</text><!--MD5=[2bfaabce853ac4dd39b4bd4924709497]
+entity pli--><ellipse cx="843" cy="653" fill="#FEFECE" filter="url(#f1mkwuvj6cx6cv)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="37" x="824.5" y="682.9951">HTTP</text><!--MD5=[db956f40f2dc50163091c98812b3e6f0]
+entity cc--><rect fill="#FEFECE" filter="url(#f1mkwuvj6cx6cv)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="99" x="1063.5" y="635"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="1058.5" y="640"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="1058.5" y="661.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="79" x="1073.5" y="657.9951">CCC-Config</text><!--MD5=[9b2642c13c00fb3398af8b6cd620f76a]
+entity cci--><ellipse cx="1019" cy="653" fill="#FEFECE" filter="url(#f1mkwuvj6cx6cv)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="37" x="1000.5" y="682.9951">HTTP</text><!--MD5=[6857688d619609624168cacb5f029075]
+entity ps--><rect fill="#FEFECE" filter="url(#f1mkwuvj6cx6cv)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="150" x="1240" y="933"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="1235" y="938"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="1235" y="959.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="130" x="1250" y="955.9951">Permission Service</text><!--MD5=[597be0cb6d297b3cdca9a72786000b3c]
+entity psi--><ellipse cx="1196" cy="951" fill="#FEFECE" filter="url(#f1mkwuvj6cx6cv)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="37" x="1177.5" y="980.9951">HTTP</text><!--MD5=[402443ffaa12e6a14070c50d434b387c]
+link psi to ps--><path d="M1205.2969,951 C1216.7243,951 1228.1517,951 1239.5791,951 " fill="none" id="psi-ps" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[a3a95b40bd955af1ca130f4e900a3b75]
+link qsi to qgs--><path d="M116.2773,376 C127.774,376 139.2707,376 150.7673,376 " fill="none" id="qsi-qgs" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[6986e0670eecad9ef35083c718250714]
+link qgs to wms--><path d="M253,376 C264.9531,376 276.9063,376 288.8594,376 " fill="none" id="qgs-wms" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[05f7d09d4fac7b3a8a30cf038c5efd50]
+link GMN17 to qgs--><path d="M200.4707,111.1608 C200.7301,128.7289 201,151.9484 201,172.5 C201,172.5 201,172.5 201,296.5 C201,317.4808 201.3525,341.5738 201.639,357.6866 " fill="none" id="GMN17-qgs" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><!--MD5=[b66822072d056e29c1406c87b452c5e0]
+link ssi to ss--><path d="M363.2539,83.5 C374.9722,83.5 386.6904,83.5 398.4087,83.5 " fill="none" id="ssi-ss" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[7b01e19f8baed2eefa6e900310acfe3c]
+link dsi to ds--><path d="M569.2773,83.5 C580.9972,83.5 592.7171,83.5 604.437,83.5 " fill="none" id="dsi-ds" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[32966b5ef18e2032482113cc3d79047a]
+link dpi to dp--><path d="M759.2031,83.5 C770.7127,83.5 782.2223,83.5 793.7319,83.5 " fill="none" id="dpi-dp" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[d700335c1eeb36e29c4a37bd36991751]
+link psp to psi--><path d="M595.0964,824.9088 C663.5473,839.2722 1097.4758,930.3261 1181.8093,948.0223 " fill="none" id="psp-&gt;psi" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="1186.8511,949.0802,1178.8646,943.3169,1181.9577,948.0532,1177.2214,951.1463,1186.8511,949.0802" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[2db7c4ee4bc4d62a729a8f314caf46ef]
+link dap to data--><path d="M908.2379,825.1151 C931.341,830.3408 993.5383,844.0149 1046,852 C1125.9887,864.175 1338.342,849.8396 1408,891 C1422.3319,899.4686 1432.9896,914.9679 1439.9827,928.0918 " fill="none" id="dap-&gt;data" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="1442.3934,932.8021,1441.8538,922.968,1440.1154,928.3512,1434.7323,926.6128,1442.3934,932.8021" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[045c74690a33434bfa911fea03ea02a3]
+link cop to config--><path d="M1099.1714,823.5749 C1152.7189,827.0729 1424.9455,846.8309 1494,891 C1507.82,899.8397 1518.1786,915.1792 1525.0266,928.1351 " fill="none" id="cop-&gt;config" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="1527.3906,932.7839,1526.8765,922.9485,1525.1242,928.3271,1519.7456,926.5747,1527.3906,932.7839" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[23e46a9c1b348d058e39ffb8799ccc89]
+link qpr to qpi--><path d="M184.043,653 C195.6046,653 207.1662,653 218.7278,653 " fill="none" id="qpr-qpi" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[748e09c06da95c682a6d90fa5d006699]
+reverse link qsi to qpr--><path d="M107,390.3794 C107,436.8801 107,583.1564 107,634.7583 " fill="none" id="qsi&lt;-qpr" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="107,385.2163,103,394.2163,107,390.2163,111,394.2163,107,385.2163" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[de480d732b97646164567363839aafb4]
+link qpr to psp--><path d="M169.6353,671.0871 C256.5637,696.4065 409.1644,741.6992 463,763 C503.8736,779.1722 549.9095,803.3061 572.299,815.4477 " fill="none" id="qpr-&gt;psp" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="576.9607,817.9881,570.972,810.1692,572.5703,815.5955,567.1439,817.1938,576.9607,817.9881" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[8378bcaaea7841b9df93aab1b274dced]
+link qpr to GMN44--><path d="M112.4153,671.1309 C116.7119,687.1268 122,711.1507 122,732.5 C122,732.5 122,732.5 122,951 C122,976.6307 123.8906,1004.3737 126.3721,1029.7482 " fill="none" id="qpr-GMN44" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><!--MD5=[3288cbc5d93ca4de446b5d26f8fb9e39]
+link wgi to wgc--><path d="M500.2773,653 C511.774,653 523.2707,653 534.7673,653 " fill="none" id="wgi-wgc" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[775ec5ce7aee58b4076aaea69f007f60]
+link wgc to psp--><path d="M586,671.193 C586,705.2214 586,777.8397 586,808.675 " fill="none" id="wgc-&gt;psp" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="586,813.9277,590,804.9277,586,808.9277,582,804.9277,586,813.9277" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[70b9203c16f2d8b1a0fec501a3b8f94c]
+link rep to jas--><path d="M333,671.3142 C333,687.4276 333,711.5208 333,732.5 C333,732.5 333,732.5 333,951 C333,1002.252 333,1062.3517 333,1094.6421 " fill="none" id="rep-&gt;jas" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="333,1099.9599,337,1090.9599,333,1094.9599,329,1090.9599,333,1099.9599" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[bead99e9bd7b8c73ca529adfeaf0f090]
+link rep to repi--><path d="M394.1133,653 C405.6564,653 417.1995,653 428.7426,653 " fill="none" id="rep-repi" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[d18d5c0cc83c3fa56264ab4c6a1830ce]
+link rep to psp--><path d="M387.3381,671.083 C395.5896,673.7712 404.0127,676.4825 412,679 C444.3185,689.1864 456.7678,682.26 485,701 C528.9966,730.2041 563.8224,784.2499 578.4768,809.4304 " fill="none" id="rep-&gt;psp" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="580.9761,813.7837,579.9642,803.987,578.4867,809.4475,573.0262,807.97,580.9761,813.7837" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[1f4a4de63925cb0537b59e4475fe1d9f]
+link mii to mi--><path d="M690.1758,653 C701.7724,653 713.369,653 724.9656,653 " fill="none" id="mii-mi" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[9fc4eb1972a3496ccdc2ba6e28601376]
+link mi to psp--><path d="M743.1649,671.193 C707.181,705.9502 629.5158,780.9677 598.8399,810.5978 " fill="none" id="mi-&gt;psp" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="595.0003,814.3065,604.2526,810.9308,598.5966,810.8328,598.6946,805.1768,595.0003,814.3065" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[897cbc4f53ca6d5d51d5aa6a0b1fa3ea]
+link mi to dap--><path d="M776.6614,671.193 C804.4257,705.645 864.0679,779.6536 888.3679,809.8069 " fill="none" id="mi-&gt;dap" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="891.6888,813.9277,889.1559,804.4101,888.5514,810.0346,882.9269,809.43,891.6888,813.9277" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[3835f4ccc6080cc374e696288cd6456c]
+link pli to pl--><path d="M852.2813,653 C863.9661,653 875.6509,653 887.3357,653 " fill="none" id="pli-pl" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[2b7bc3890992cf0607fb088adc4bbb65]
+link pl to cop--><path d="M948.0158,671.193 C980.3706,705.7862 1050.0263,780.2608 1078.0053,810.1755 " fill="none" id="pl-&gt;cop" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="1081.5147,813.9277,1078.2885,804.6222,1078.0994,810.2759,1072.4457,810.0868,1081.5147,813.9277" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[a6c9196f5cda76f22c08064da2817200]
+link cci to cc--><path d="M1028.1797,653 C1039.8867,653 1051.5936,653 1063.3006,653 " fill="none" id="cci-cc" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[130824c3e81278bdfe187a33cf7ef475]
+link cl to wgi--><path d="M541.2179,496.0689 C530.0172,531.0713 505.5779,607.444 495.4915,638.964 " fill="none" id="cl-&gt;wgi" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="493.8904,643.9674,500.4432,636.6148,495.4144,639.2053,492.8239,634.1765,493.8904,643.9674" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[21395a0bafcfc83fa2de4f580dc5d694]
+reverse link wms to cl--><path d="M300.3293,390.0559 C302.1502,396.9317 305.3632,404.8213 311,410 C332.2731,429.5441 397.1432,447.4495 453.4991,459.9755 " fill="none" id="wms&lt;-cl" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="299.191,385.0571,297.2891,394.7206,300.3012,389.9323,305.0894,392.9443,299.191,385.0571" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[7fb4201e63782bed74d767eff3674150]
+reverse link ssi to cl--><path d="M365.4791,96.4922 C378.8116,112.9655 399,142.8116 399,172.5 C399,172.5 399,172.5 399,376 C399,418.5956 441.0772,444.7662 480.3603,459.9173 " fill="none" id="ssi&lt;-cl" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="362.2537,92.6004,364.917,102.0823,365.4443,96.4501,371.0765,96.9774,362.2537,92.6004" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[613685ad8485def16281af376fab8d52]
+reverse link dsi to cl--><path d="M558.2076,97.5677 C556.1336,115.0885 553,145.9529 553,172.5 C553,172.5 553,172.5 553,376 C553,405.4466 550.4772,439.5927 548.7033,459.9622 " fill="none" id="dsi&lt;-cl" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="558.8125,92.5782,553.758,101.0311,558.2105,97.5418,561.6998,101.9943,558.8125,92.5782" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[0882b0cb8d80acbb313b31adf037228c]
+reverse link dpi to cl--><path d="M738.9684,97.0455 C726.5245,113.7326 708,143.452 708,172.5 C708,172.5 708,172.5 708,376 C708,419.5117 665.5187,445.2355 624.1991,459.9648 " fill="none" id="dpi&lt;-cl" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="742.2966,92.6958,733.6508,97.4128,739.2582,96.6667,740.0043,102.2742,742.2966,92.6958" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[c069491f77b2b08331d48157011c5b80]
+link cl to repi--><path d="M535.7456,496.0689 C513.8541,531.2159 465.9813,608.0759 446.5005,639.3524 " fill="none" id="cl-&gt;repi" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="443.626,643.9674,451.7795,638.4429,446.2695,639.7234,444.9891,634.2133,443.626,643.9674" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[d2387fdcd689b92187a8b534c86cd096]
+link cl to mii--><path d="M560.8356,496.0689 C587.859,531.3606 647.0859,608.7092 670.8437,639.7362 " fill="none" id="cl-&gt;mii" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="674.0836,643.9674,671.7878,634.3899,671.0438,639.9976,665.4361,639.2536,674.0836,643.9674" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[54cee24de6e11e8b54c6db971f9f0246]
+link cl to pli--><path d="M586.4852,496.2143 C640.3802,521.8914 738.9613,571.8037 815,627 C820.3684,630.8969 825.8152,635.7166 830.46,640.1436 " fill="none" id="cl-&gt;pli" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="834.1537,643.741,830.4972,634.5961,830.5718,640.2524,824.9155,640.327,834.1537,643.741" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="142" x="733" y="570.0669">../map?k=.. via proxy?</text><!--MD5=[bd47b5cf8ef83c775bc14877227a18f6]
+link cl to cci--><path d="M643.1357,491.364 C712.1287,503.127 806.2546,523.6895 884,557 C936.2354,579.3806 946.2408,591.9851 991,627 C996.2248,631.0874 1001.6402,635.9488 1006.3001,640.3558 " fill="none" id="cl-&gt;cci" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="1010.0158,643.9239,1006.2945,634.8051,1006.4093,640.4608,1000.7536,640.5755,1010.0158,643.9239" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[752d473284d11b11c145a883b6995645]
+link cl to qpi--><path d="M502.7275,496.0942 C443.7781,521.184 337.4839,569.9522 256,627 C250.5658,630.8046 245.1046,635.6041 240.4667,640.0408 " fill="none" id="cl-&gt;qpi" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="236.7831,643.6524,246.0098,640.2075,240.3532,640.1518,240.4089,634.4952,236.7831,643.6524" style="stroke: #A80036; stroke-width: 1.0;"/><rect fill="#DDDDDD" height="42.5938" rx="5" ry="5" style="stroke: #000000; stroke-width: 1.0;" width="366" x="626" y="1248"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="354" x="632" y="1265.9951">todo: Abhängigkeiten "ausserhalb" nicht abgebildet</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="242" x="632" y="1282.292">(Permission Srv, Datenbankben, ...)</text><!--MD5=[f5ce852a8ad62154ccde890008c87863]
+@startuml
+[Permission Service] as ps
+() HTTP as psi
+psi - ps
+
+database "Config-DB" {
+  [data] as config
+}
+
+database "Geo-DB" {
+  [data] as data
+}
+  
+node "API" {  
+together {
+  [QGIS Server] as qgs
+  () HTTP as qsi
+  qsi - qgs
+  () WMS as wms
+  qgs - wms
+
+  note top of qgs   
+    @sourcepole: WMS-Requests
+    (Capabilities, Map, Featureinfo)
+    komplett innerhalb Standard?
+  end note 
+}
+
+  [Searchservice] as ss
+  () HTTP as ssi
+  ssi - ss
+
+  [Dataservice] as ds
+  () HTTP as dsi
+  dsi - ds
+
+  [Dataproduct Service] as dp
+  () HTTP as dpi
+  dpi - dp
+}
+
+package "Web GIS Client"{
+
+  () . as psp 
+  psp - -> psi
+
+  () . as dap 
+  dap - -> data
+
+  () . as cop 
+  cop - -> config
+
+  package {
+  [QGS-Server Proxies] as qpr
+  () HTTP as qpi
+  qpr - qpi
+  qpr -up-> qsi
+  qpr - -> psp
+  
+  note bottom of qpr
+    Proxy Images für QGIS-Server 
+    Funktionen ausserhalb der
+    OGC-Standards.
+    
+    Images (Komponenten):
+    - [GetPrint]
+    - [GetLegend]
+    - [Grundbuchplan]
+    
+    Grundbuchplan ist nicht von
+    Permissionservice abhängig.
+  end note
+  }
+
+  together {
+    [WGC Server] as wgc
+    () HTTP as wgi
+    wgi - wgc
+  }
+  wgc - -> psp
+
+  package {
+    [Jasper] as jas
+    [Document Srv.] as rep
+    () HTTP as repi
+    rep - -> jas
+    rep - repi
+    rep - -> psp
+  }
+  
+  together {
+    [Mapinfo] as mi
+    () HTTP as mii
+    mii - mi
+    mi - -> psp
+    mi - -> dap
+  }
+   
+  together {
+    [Permalink] as pl
+    () HTTP as pli
+    pli - pl
+    pl - -> cop
+  }
+  
+  together {
+    [CCC-Config] as cc
+    () HTTP as cci
+    cci - cc
+  }
+  
+  
+  [Web GIS Client (Browser)] as cl
+  cl - -> wgi
+  cl -up-> wms
+  cl -up-> ssi
+  cl -up-> dsi
+  cl -up-> dpi
+  cl - -> repi
+  cl - -> mii
+  cl - -> pli : ../map?k=.. via proxy?
+  cl - -> cci
+  cl - -> qpi
+}
+
+legend bottom
+  todo: Abhängigkeiten "ausserhalb" nicht abgebildet
+  (Permission Srv, Datenbankben, ...)
+endlegend
+@enduml
+
+PlantUML version 1.2019.11(Sun Sep 22 10:02:15 GMT 2019)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 14-ea+15
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg><?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="92px" preserveAspectRatio="none" style="width:176px;height:92px;background:#000000;" version="1.1" viewBox="0 0 176 92" width="176px" zoomAndPan="magnify"><defs/><g><rect fill="#00251D" height="1" style="stroke: #00251D; stroke-width: 1.0;" width="1" x="0" y="0"/><rect fill="#33FF02" height="21.2969" style="stroke: #33FF02; stroke-width: 1.0;" width="170" x="5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="168" x="6" y="20">[From string (line 2) ]</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="0" x="10" y="40.2969"/><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="79" x="5" y="56.5938">@startuml</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="0" x="10" y="72.8906"/><text fill="#FF0000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="142" x="10" y="89.1875">Empty description</text><!--MD5=[32cdf00ca4de9548cb66229d3b19ebbf]
+@startuml
+
+
+
+@enduml
+
+PlantUML version 1.2019.11(Sun Sep 22 10:02:15 GMT 2019)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 14-ea+15
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

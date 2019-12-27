@@ -1,0 +1,23 @@
+@startuml
+[client] as c
+
+node {
+[mapservice] as s
+() WMS as si
+s -right- si
+}
+
+package "FeatureInfo - FI" {
+  [FeatureInfo] as fi
+  [SpatialQuery] as sq
+  [Py-Module] as m
+  () "WMS - FI" as fii
+  fii -right- fi
+  
+  fi <|-- sq
+  fi <|-- m
+}
+
+c --> si
+c --> fii
+@enduml
