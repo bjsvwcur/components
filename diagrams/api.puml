@@ -21,7 +21,7 @@ node {
 }
 
 [Dataservice] as ds
-() HTTP as dsi
+() REST as dsi
 dsi -ds
 ds -up-> psi
 ds -up-> data

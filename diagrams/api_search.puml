@@ -11,21 +11,39 @@ database "Geodata" {
   [View *_solr_v] as data_v
 }
 
-
 package "search" {
 
   package "Solr" {
-    [DIH - Data Import Handler] as dih
-    () HTTP as dihi    
-    dih --> config_v : jdbc
-    dih --> data_v : jdbc
+    together {
+      [DIH - Data Import Handler] as dih
+      () HTTP as dihi   
+      dihi - dih 
+    }
+    
+    () . as h1
+    
+    dih --> h1
+    h1 --> config_v : jdbc
+    h1 --> data_v : jdbc
 
-    () HTTP as uhi
-    () HTTP as qi
-
-    uhi - [Update]
-    dihi - [dih]
-    qi - [Query]
+    together {
+      [Update] as uh
+      () HTTP as uhi
+      uhi - uh
+    }
+    
+    together {
+      () HTTP as qi    
+      [Query] as q
+      qi - q
+    }
+    
+    database {
+      [SOLR-Index] as si
+    }
+    dih --> si
+    uh --> si
+    q --> si
   }
 
   [Searchservice] as ss
@@ -34,36 +52,20 @@ package "search" {
   ss --> qi
   ss --> psi
 
-  [GRETL - JOB] as gretl
-
   [Indexupdater] as iu
   () HTTP as iui
   iui - iu
   iu --> uhi
   iu --> dihi
   iu --> qi
-
-  
-  [AGDI Publish] --> iui
-  gretl --> iui
 }
 
-
-
-
-
-
-
-
-
-
+[AGDI Publish] --> iui
+[GRETL - Job] --> iui
+[Such-Client] --> ssi
 
 legend bottom left
-  Komponenten-Diagramm der SOLR-Suche:
 
-  Beinhaltet die für die Bereitstellung des Suchservice notwendigen Komponenten.
-  Die Clients konsumieren mittels Suchanfragen den Searchservice.
-  Die Aktualisierung des Suchindexes erfolgt über den Indexupdater.
   
   Abstraktionen im Diagramm:
   - Stellvertretend ist nur eine Datenbank als Datenquelle für den SOLR-Index dargestellt.

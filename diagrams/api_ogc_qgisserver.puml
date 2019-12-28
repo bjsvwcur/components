@@ -17,8 +17,8 @@ package "QGIS as OGC Server"{
   [QGIS-Server] as qs
   () WMS as wmi
   () WFS as wfi
-  wfi -- qs
-  wmi -- qs
+  qs - wfi
+  wmi - qs
   qs --> data
   qs --> config
   }

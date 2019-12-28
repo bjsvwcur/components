@@ -13,5 +13,5 @@ do
   name=$(echo $name_suffix | cut -d. -f1) # split filename with delimiter ., and pick first element of result array
   out=../doc/dia/${name}.svg
 
-  cat $f | docker run --rm -i think/plantuml > $out
+  cat $f | docker run --rm -i puml_burner > $out
 done
