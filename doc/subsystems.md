@@ -1,7 +1,7 @@
 # Komponentendiagramme der GDI des Kantons Solothurn
 ## Erläuterung der Diagrammelemente
 
-![Beispieldiagramm](dia/sample.svg?sanitize=true)
+![Beispieldiagramm](dia/sample.png)
 
 Der Client nutzt (ist Abhängig von):
 * Das Subsystem "mapservice" via Interface WMS. 
@@ -24,7 +24,7 @@ Die Diagramme werden mittels (https://plantuml.com/) erstellt.
 
 ## Uebersichtsdiagramm aller Subsysteme
 
-![Subsysteme](dia/subsystems.svg)
+![Subsysteme](dia/subsystems.png)
 
 Subsysteme (alphabetisch):
 * **API:** Dienste, welche von mehreren Subsystemen und oder Applikationen genutzt werden.
@@ -48,24 +48,24 @@ Subsysteme (alphabetisch):
 
 ## API
 
-![API](dia/api.svg)
+![API](dia/api.png)
 
 Komponenten und Subsysteme:
 * **CCC-Service:** Bilaterale Kommunikationsschnittstelle, mit welcher Fachapplikationen ohne GIS-Fähigkeiten die Karten- und Editierfunktionen der GDI nutzen können. Die Kommunikation erfolgt über Websocket.
 * **Dataservice:** REST-Schnittstelle, über welche mittels GeoJson (Geo-)Daten mit oder ohne Geometrie gelesen und gechrieben werden können.
 * **OGC-Services:** Stellt WMS und WFS für die Vektordatensätze der GDI bereit.
 * $td WMTS
-* **Searchservice:** Volltext-Suchservice für die Suche nach Kartenebenen und Orten. Bei der Suche nach Kartenebenen werden die Metadaten durchsucht; bei der Suche nach Orten die entsprechenden Geodatensätze.
+* ![**Searchservice:** Volltext-Suchservice für die Suche nach Kartenebenen und Orten.](./search.md)
 
 ### CCC-Service (API)
 
-![CCC-Service](dia/api_cccservice.svg)
+![CCC-Service](dia/api_cccservice.png)
 
 $td Erweitern mit Handshake-Sequenzdiagramm mit Web GIS Client
 
 ### OGC-Services (API)
 
-![OGC-Services](dia/api_ogc_qgisserver.svg)
+![OGC-Services](dia/api_ogc_qgisserver.png)
 
 Ist aufgebaut über die folgenden Komponenten (Top-Down):
 * **Proxy (OGC-Service):** Dieser prüft für WMS und WFS die Zugriffsberechtigungen. Für WMS erledigt er zusätzlich:
@@ -76,26 +76,9 @@ Ist aufgebaut über die folgenden Komponenten (Top-Down):
   * WMS-Info: Ermittlung mittels WMS-GetFeatureInfo Aufruf an den QGIS-Server.
   * Py-Module: Ermittlung mittels Python-Modul. Die Python-Module teilen sich die immer gleiche Signatur ihrer Hauptmethode. Ein Python-Modul wird zum Beispiel als Adapter eingesetzt, wenn ein Dienst einer Drittapplikation in das Featureinfo eingebunden werden soll.
   * (SingleLayerInfo): Die obgenannten drei Module implementieren die jeweils gleiche Methode. Dies entspricht konzeptionell der Vererbung von SingleLayerInfo.
+  * HTMLRenderer: Erzeugt mittels Jinja-Template den HTML-Output der Featureinfo-Abfrage.
 * **QGIS-Server:** Arbeitet die WMS- und WFS-Anfragen ab. 
 
-### Searchservice (API)
-
-![Searchservice](dia/api_search.svg)
-
-Im Suchservice sind zwei "Familien" von Komponenten im Einsatz:
-* Komponenten für die Aktualisierung des Solr-Index.
-* Komponenten für die Verarbeitung von Suchanfragen.
-
-Komponenten für die Aktualisierung des Suchindex:
-* **AGDI Publish** und **GRETL-Job** beauftragen den Indexupdater
-* Der **Indexupdater**
-  * Entfernt mittels **Update** den zu aktualisierenden Teil des Index.
-  * Lädt den Teil mittels **DIH** von den Quellen neu in den Index.
-  * Frägt während dem neu Laden mittels **Query** den Fortschritt ab. 
-
-Der **Searchservice** nimmt die Anfragen von Clients entgegen. Der Searchservice enthält:
-* Das Einschränken der Suche auf nur Kartenebenen oder nur Adressen, Grundstücke, ...
-* Die Prüfung der Berechtigung (für Ortssuchen).
 
 
 

@@ -68,7 +68,7 @@ legend bottom left
 
   
   Abstraktionen im Diagramm:
-  - Stellvertretend ist nur eine Datenbank als Datenquelle für den SOLR-Index dargestellt.
-  - Die Abhängkeiten des Permission Service sind nicht abgebildet.
+  - Stellvertretend ist nur eine Datenbank als Datenquelle fuer den SOLR-Index dargestellt.
+  - Die Abhaengkeiten des Permission Service sind nicht abgebildet.
 endlegend
 @enduml

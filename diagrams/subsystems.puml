@@ -25,7 +25,7 @@ gretl --> data
 gretl --> ldap
 
 node {
-	[Grundstücksinformation] as gsi
+	[Grundstuecksinformation] as gsi
 }
 gsi --> data
 
@@ -48,11 +48,11 @@ node {
 }
 
 legend bottom
-	Pfeile zeigen die Abhängigkeiten zur Laufzeit.
-    A --> B bedeutet: A ist von B abhängig.
+	Pfeile zeigen die Abhaengigkeiten zur Laufzeit.
+    A --> B bedeutet: A ist von B abhaengig.
     
     QGIS: 
     - Inklusive SO-Locator
-    - Abhängigkeit auf Konfig-DB aufgrund Dataproduct-Service
+    - Abhaengigkeit auf Konfig-DB aufgrund Dataproduct-Service
 endlegend
 @enduml

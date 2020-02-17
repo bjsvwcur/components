@@ -61,7 +61,7 @@ package "Web GIS Client"{
   qpr --> psp
   
   note bottom of qpr
-    Proxy Images für QGIS-Server 
+    Proxy Images fuer QGIS-Server
     Funktionen ausserhalb der
     OGC-Standards.
     
@@ -71,7 +71,7 @@ package "Web GIS Client"{
     - [Grundbuchplan]
     
     Grundbuchplan ist nicht von
-    Permissionservice abhängig.
+    Permissionservice abhaengig.
   end note
   }
 
@@ -127,7 +127,7 @@ package "Web GIS Client"{
 }
 
 legend bottom
-  todo: Abhängigkeiten "ausserhalb" nicht abgebildet
+  todo: Abhaengigkeiten "ausserhalb" nicht abgebildet
   (Permission Srv, Datenbankben, ...)
 endlegend
 @enduml
