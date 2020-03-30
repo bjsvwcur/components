@@ -65,10 +65,9 @@ package "search" {
 [Such-Client] --> ssi
 
 legend bottom left
-
-  
   Abstraktionen im Diagramm:
   - Stellvertretend ist nur eine Datenbank als Datenquelle fuer den SOLR-Index dargestellt.
   - Die Abhaengkeiten des Permission Service sind nicht abgebildet.
+  - Dataservice und Dataproduct Service sind nicht abgebildet
 endlegend
 @enduml

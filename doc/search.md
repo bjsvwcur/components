@@ -10,12 +10,12 @@ Die folgenden Objekttypen können mittels Suchservice gesucht werden:
 
 ### Im Suchservice umgesetzte konzeptionelle Ziele
 
-* **Treffend und umfassend:** Treffend ist als "bestmögliche" Resultatsortierung umgesetzt. Umfassend insbesondere
-bei der Metasuche mittels Indexierung von Synonymen, Stichworten und Beschreibung.  
+* **Treffend und umfassend:** Treffend ist als "bestmögliche" Resultat-Sortierung umgesetzt. 
+Umfassend betrifft insbesondere die Metasuche. Umgesetzt mittels Indexierung von Synonymen, Stichworten und Beschreibung.  
 * **Schlank und schnell:** Grundsätzlich werden lediglich Informationen in den Index aufgenommen, welche für das
-Anzeigen der Resultatliste erforderlich sind. Ausnahme: Extent bei Featuresuchen.
+Anzeigen der Resultatliste und den Aufruf von Folgefunktionen erforderlich sind. Ausnahme: Extent bei Featuresuchen.
 * **Ein Index für Geo- und Metasuche:** Um auch bei gemeinsamem Suchfeld für Geo- und Metasuche sehr schnelle
-Antwortzeiten zu erreichen kommt ein einziger generischer Suchindex über die Metasuche und alle Featuresuchen zur Anwendung.
+Antwortzeiten zu erreichen, kommt ein einziger generischer Suchindex über die Metasuche und alle Featuresuchen zur Anwendung.
 * **Delegation an Sub-Services:** Für das Anzeigen eines Geoobjektes wird anschliessend der DataService verwendet,
 für das Ermitteln weitergehender Informationen zu einem Layer der Dataproduct-Service. 
 
@@ -32,7 +32,7 @@ Apache Solr  mit den Standardkomponenten Data Import Handler (DIH), Query und Up
 Komponenten und deren Verwendung für die Suche:
 * **Query:** HTTP-Interface, mit welchem die Suchanfragen an Solr gesendet werden. 
 Verwendet wird das HTTP-GET basierte Query interface.
-* **Update und DIH:** Werden orchestriert vom Indexupdater verwendet, um den betroffenen Teil des Index 
+* **Update, DIH (und Query):** Werden orchestriert vom Indexupdater verwendet, um den betroffenen Teil des Index 
 via Update-HTTP-Interface zu löschen und anschliessend via DIH neu aus der Quelle zu laden.
 
 Siehe dazu die offizielle Solr-Dokumentation zu [Query](https://lucene.apache.org/solr/guide/7_7/requesthandlers-and-searchcomponents-in-solrconfig.html#searchhandlers), 
@@ -65,11 +65,16 @@ $td Todo:
 * Manuell Indexslice neu laden
 * Manuell den ganzen Index mittels Admin-Interface neu laden
 
-### Problemanalyse 
+Die Solr-Konfiguration wird im git repo [sogis/solr](https://github.com/sogis/solr) verwaltet.
+
+### Problemanalyse mittels Shell-Skript
 
 Für die Problemanalyse eignen sich CURL basierte Shellskripte, mit welchen unter Umgehung der Searchservice-Komponente
-direkt ermittelt werden kann, wie sich die 
+direkt ermittelt werden kann, welche Antwort die aktive Solr-Konfiguration auf eine bestimmte Anfrage gibt.
 
+Die Shellskripte bilden die im "Searchservice" enthaltene Query ab.
+* Für Suchbegriff mit einem Teil [one.sh](search_res/one.sh)
+* Für Suchbegriff mit drei Teilen "solo röti 4" [three_query.sh](search_res/three_query.sh)
 
 ## Modelldokumentation des Solr-Index
 
